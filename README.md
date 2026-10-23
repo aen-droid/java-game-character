@@ -99,7 +99,11 @@ java GameCharacter.Main
 
 If your source file is in a different directory, adjust the commands to match your project structure.
 
-## Project Structure
+## Project Files
+
+The project contains one Java source file, `Main.java`, inside the `GameCharacter` package. This file contains the main program, graphical user interface, battle system, action handling, and all character classes.
+
+### Project Structure
 
 ```text
 ProjectFolder/
@@ -107,4 +111,26 @@ ProjectFolder/
     └── Main.java
 ```
 
-All classes are included in `Main.java` in the provided version. Only `Main` is declared `public`; the other classes use package-private visibility.
+### File and Class Descriptions
+
+| File / Class | Description |
+|---|---|
+| `Main.java` | Main source file containing all classes used in the game. |
+| `Main` | Entry point of the program. Launches the graphical user interface. |
+| `GUI` | Creates the game window, character selection menus, health bars, attack buttons, turn indicator, and battle log. |
+| `BattleSystem` | Manages turn order, action queues, round counting, battle progress, and winner detection. |
+| `BattleAction` | Represents and executes a basic or special attack against an opponent. |
+| `GameCharacter` | Abstract parent class that stores character names, health, and special-attack charge. Defines common character behaviors. |
+| `Warrior` | Human character with Mighty Sword and Shield Bash attacks. |
+| `Mage` | Human character with Fireball and Lightning Storm attacks. |
+| `Archer` | Human character with Quick Shot and Piercing Arrow attacks. |
+| `Siren` | Monster character with Vicious Scratch and Siren Song attacks. |
+| `Werewolf` | Monster character with Aggressive Bite and Full Moon Rage attacks. |
+| `Slime` | Monster character with Slam and Acidic Sludge attacks. |
+
+### Data Structures Used
+
+- **Queue:** Maintains the order of turns and stores pending battle actions.
+- **LinkedList:** Implements the queues used by the battle system.
+- **ArrayList:** Stores battle messages returned after queued actions are processed.
+
