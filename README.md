@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/33880764/README.md)
 # Human vs Monsters Arena
 
-A turn-based battle game built with **Java Swing**. The player chooses a human character and a monster, then takes turns attacking until one character's health reaches zero.
+A turn-based battle game built with **Java Swing**. Two players chooses a human character and a monster, then takes turns attacking until one character's health reaches zero.
 
 ## Features
 
@@ -108,19 +108,3 @@ ProjectFolder/
 ```
 
 All classes are included in `Main.java` in the provided version. Only `Main` is declared `public`; the other classes use package-private visibility.
-
-## Possible Improvements
-
-- Add character portraits, animations, and sound effects.
-- Add defense, healing, or status effects.
-- Add difficulty levels or monster AI for single-player mode.
-- Display a clearer visual indicator for the current actor.
-- Add unit tests for damage, special-charge rules, turn rotation, and victory conditions.
-
-## Author
-
-Add your name or team name here.
-
-## License
-
-Add a license here if you plan to distribute the project publicly.
