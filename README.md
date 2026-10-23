@@ -15,19 +15,18 @@ Features
 - Replay support: Press Start to initialize a new match.
 Character Classes
 Every character starts with 100 HP.
-Human Classes
-Class	Basic Attack	Basic Damage	Special Attack	Special Damage
-Warrior	Mighty Sword	10	Shield Bash	25
-Mage	Fireball	12	Lightning Storm	30
-Archer	Quick Shot	9	Piercing Arrow	28
 
+Human Classes
+Class 	| Basic Attack	 | Basic Damage |	Special Attack	Special | Damage
+Warrior	| Mighty Sword	 |     10       | Shield Bash	           |  25
+Mage	   | Fireball	    |     12	    | Lightning Storm	     |  30
+Archer	| Quick Shot	 |      9	    | Piercing Arrow	        | 28
 
 Monster Classes
-Class	Basic Attack	Basic Damage	Special Attack	Special Damage
-Siren	Vicious Scratch	8	Siren Song	26
-Werewolf	Aggressive Bite	11	Full Moon Rage	27
-Slime	Slam	7	Acidic Sludge	24
-
+Class 	|  Basic Attack	 | Basic Damage |	Special Attack	Special | Damage
+Siren 	| Vicious Scratch	 |      8       |      Siren Song        |  26
+Werewolf | Aggressive Bite  |      11	    | 	Full Moon Rage	     |  27
+Slime  	|      Slam	       |      7	    |     Acidic Sludge	     |  24
 
 Battle Rules
 1. Enter a name for the human and the monster.
